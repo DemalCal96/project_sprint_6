@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title('Análisis Exploratorio de Datos')
 st.header('Datos de Distancia recorrida y precio de vehículos en Estados Unidos ')
-
+st.write('Los siguientes gráficos resumen la relación entre la distancia recorrida por vehículos de Estados Unidos y el precio de dichos vehículos. ')
 
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 hist_button = st.button('Construir histograma') # crear un botón para histograma
